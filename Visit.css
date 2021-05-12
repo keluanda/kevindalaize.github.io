@@ -1,0 +1,62 @@
+.avatar {
+
+	height:10em;
+	
+	align-items: center;
+}
+body{
+	display:flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content:center;
+ text-align:center;
+ background:url("wooden.jpg");
+  max-width: 100%;
+    height: auto;
+ 
+ background-position:center center;
+ background-size:100%;
+background-attachment:scroll;
+}
+.titre {
+color:blue;
+	
+
+}
+html {
+		box-sizing: border-box;
+	}
+header {
+	
+
+	overflow:auto;
+	word-wrap: break-word;
+
+	width: 50%; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+ padding: 12px;
+    margin-bottom: 20px;
+	
+	}
+.principal{
+	 
+
+	width: 80%;
+  text-align: justify;
+  margin-left:auto;
+  margin-right:auto;
+	flex:auto;
+		margin: 0px;
+	
+}
+section {
+        padding: 10px;
+        margin: 10px;
+       
+	
+      }
+ .principal h5{
+	text-align :center;
+	
+}
+.
